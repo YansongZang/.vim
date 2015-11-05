@@ -8,3 +8,4 @@
 * vim-web-indent
 * vim-less
 * html5.vim
+* vim-scala

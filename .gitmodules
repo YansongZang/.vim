@@ -34,3 +34,7 @@
 	path = bundle/vim-less
 	url = git@github.com:groenewege/vim-less.git
 	branch = master
+[submodule "bundle/vim-scala"]
+	path = bundle/vim-scala
+	url = git@github.com:derekwyatt/vim-scala.git
+	branch = master
