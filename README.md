@@ -14,10 +14,10 @@
 
 ### clean clone
 1. `git clone git@github.com:YansongZang/.vim.git`
-2. `make`
 2. `git submodule init`
 3. `git submodule update`
-4.
+4. `git submodule foreach git checkout master`
+5. `git submodule foreach git pull`
 
 ### add vim plugins as git submodules
 `cd bundle && git submodule add <git@git-host:git-repository>`
@@ -30,7 +30,6 @@
 4. Run git rm --cached path\_to\_submodule (no trailing slash).
 5. Commit the superproject.
 6. Delete the now untracked submodule files.
-
 
 ### update vim plugins as git sumbodules
 
