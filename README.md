@@ -23,7 +23,7 @@
 
 ### remove vim plugins as git sumbodules
 
-1. Run git rm --cached bundle/submodule (no trailing slash).
+1. Run git rm --cached bundle/<submodule> (no trailing slash).
 2. Delete the relevant line from the .gitmodules file.
 3. Delete the relevant section from .git/config.
 4. Delete the relevant folder from inside .git/modules/bundle
