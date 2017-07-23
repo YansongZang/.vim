@@ -8,7 +8,6 @@
 * jellybeans.vim
 * syntastic
 * nerdtree
-* vim-scala
 
 ## HOWTOs
 
