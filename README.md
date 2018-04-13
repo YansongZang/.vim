@@ -12,7 +12,7 @@
 ## HOWTOs
 
 ### clean clone
-1. `git clone git@github.com:YansongZang/.vim.git`
+1. `git clone git@github.com:albertzang/.vim.git`
 2. `git submodule init`
 3. `git submodule update`
 4. `git submodule foreach git checkout master`
